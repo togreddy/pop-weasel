@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MacysAutomFrameworkTestSuite" duration-ms="94" started-at="2016-05-09T22:43:42Z" finished-at="2016-05-09T22:43:42Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="94" started-at="2016-05-09T22:43:42Z" finished-at="2016-05-09T22:43:42Z">
+      <class name="com.test.LoginPageTest">
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:com.test.LoginPageTest@4475a0c6]" name="initialize" is-config="true" duration-ms="0" started-at="2016-05-09T17:43:42Z" finished-at="2016-05-09T17:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="testinvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginPageTest@4475a0c6]" name="testinvalidLogin" duration-ms="0" started-at="2016-05-09T17:43:42Z" finished-at="2016-05-09T17:43:42Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method testinvalidLogin requires 2 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method testinvalidLogin requires 2 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinvalidLogin -->
+      </class> <!-- com.test.LoginPageTest -->
+      <class name="com.test.HomePageTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.test.HomePageTest@14377358]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-09T17:43:42Z" finished-at="2016-05-09T17:43:42Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.util.PageDriver.initializeBrowser(PageDriver.java:39)
+	at com.util.PageDriver.<init>(PageDriver.java:29)
+	at com.base.BaseTest.setUp(BaseTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:298)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initialize()[pri:0, instance:com.test.HomePageTest@14377358]" name="initialize" is-config="true" duration-ms="0" started-at="2016-05-09T17:43:42Z" finished-at="2016-05-09T17:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="testclickSignIn()[pri:0, instance:com.test.HomePageTest@14377358]" name="testclickSignIn" duration-ms="2" started-at="2016-05-09T17:43:42Z" finished-at="2016-05-09T17:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclickSignIn -->
+        <test-method status="SKIP" signature="testcountnavItems()[pri:0, instance:com.test.HomePageTest@14377358]" name="testcountnavItems" duration-ms="1" started-at="2016-05-09T17:43:42Z" finished-at="2016-05-09T17:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcountnavItems -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.test.HomePageTest@14377358]" name="quit" is-config="true" duration-ms="0" started-at="2016-05-09T17:43:42Z" finished-at="2016-05-09T17:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.HomePageTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- MacysAutomFrameworkTestSuite -->
+</testng-results>

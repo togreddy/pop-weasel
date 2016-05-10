@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MacysAutoFrameworkTestSuite]">
+  <test name="FuncionalTest(failed)">
+    <classes>
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="testinvalidLogin"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="testcountnavItems"/>
+          <include name="setUp"/>
+          <include name="testclickSignIn"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+    </classes>
+  </test> <!-- FuncionalTest(failed) -->
+</suite> <!-- Failed suite [MacysAutoFrameworkTestSuite] -->
